@@ -1,0 +1,91 @@
+.reviews {
+    min-height: 650px;
+    position: relative; 
+    height: 100vh;
+}
+
+.reviws_block {
+    width: 25%;
+    height: 325px;
+}
+
+.reviws_main_block {
+    display: flex;
+    flex-wrap: wrap;
+}
+.reviws_main_block div {
+    width: calc(100%/4);
+    height: 325px;
+    background-position: center center;
+    background-size:  cover;
+    background-repeat: no-repeat;
+}
+
+.reviws_block { 
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+  }
+
+  .reviws_block span {
+      color: #f5f5f5;
+      font-size: 14px;
+      position: relative;
+      top: 50px;
+      left: 20px;
+      font-family: 'gagalin';
+  }
+
+  .reviws_block p {
+      color: white;
+      font-size: 14px;
+      padding: 50px 20px 25px 20px;
+      line-height: 1.6;
+      font-family: 'ubuntulight';
+  }
+
+  .reviws_block a {
+      color: white;
+      font-size: 13px;
+      text-transform: uppercase;
+      text-decoration: none;
+  }
+
+
+
+.reviws_people_1 {
+    background-image: url(../pic/photo_1.jpg);
+}
+
+.reviws_people_2 {
+    background-image: url(../pic/photo_2.jpg);
+    transform: scale(-1, 1)
+}
+
+.reviws_people_3 {
+    background-image: url(../pic/photo_3.jpg);
+}
+
+.reviws_people_4 {
+    background-image: url(../pic/photo_4.jpg);
+}
+
+.reviws_people_5 {
+    background-image: url(../pic/photo_5.jpg);
+    transform: scale(-1, 1)
+}
+
+.reviws_people_6 {
+    background-image: url(../pic/photo_6.jpg);
+}
+
+.reviws_people_7 {
+    background-image: url(../pic/photo_7.jpg);
+}
+
+.reviws_people_8 {
+    background-image: url(../pic/photo_8.jpg);
+    transform: scale(-1, 1)
+}

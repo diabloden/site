@@ -1,0 +1,45 @@
+.we {
+    min-height: 650px;
+    background: url(../pic/bg.png) no-repeat center;
+    background-size: cover;
+    position: relative; 
+    text-align: center;
+}
+
+.maincontent3 {
+    max-width: 1100px;
+    min-height: 650px;
+    height: 100vh;
+    margin: auto;
+}
+
+.we h1 {
+    font-family: 'gagalin';
+    margin: 0;
+    color: #2f3234;
+    font-size: 72px;
+    padding: 140px 0 60px 0;
+}
+
+.we_table {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+}
+
+.we_block {
+    width: 33%;
+}
+
+.we_block p {
+    color: #2f3234;
+    font-size: 24px;
+    font-family: 'lifehack';
+}
+
+.we_block span {
+    color: #666666;
+    font-size: 14px;
+    font-family: 'ubuntulight';
+}
